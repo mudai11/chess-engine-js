@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#chess-board {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.square {
+  height: 99px;
+  width: 99px;
+  position: relative;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+.bishop-w {
+  background-image: url("./src/assets/bishop_w.png");
+}
+.bishop-b {
+  background-image: url("./src/assets/bishop_b.png");
+}
+.king-w {
+  background-image: url("./src/assets/king_w.png");
+}
+.king-b {
+  background-image: url("./src/assets/king_b.png");
+}
+.queen-w {
+  background-image: url("./src/assets/queen_w.png");
+}
+.queen-b {
+  background-image: url("./src/assets/queen_b.png");
+}
+.pawn-w {
+  background-image: url("./src/assets/pawn_w.png");
+}
+.pawn-b {
+  background-image: url("./src/assets/pawn_b.png");
+}
+.rook-w {
+  background-image: url("./src/assets/rook_w.png");
+}
+.rook-b {
+  background-image: url("./src/assets/rook_b.png");
+}
+.knight-w {
+  background-image: url("./src/assets/knight_w.png");
+}
+.knight-b {
+  background-image: url("./src/assets/knight_b.png");
+}
+.piece {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 85px;
+  z-index: 2;
+  cursor: grab;
+}
+.glasswhite {
+  background-color: #faf9f6;
+}
+.glassblack {
+  background-color: #516fa0;
+}
+.highlight-enemy {
+  background-color: #778ba8;
+}
+.highlight-ally {
+  background-color: #b45c67;
+}

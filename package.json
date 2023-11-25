@@ -1,0 +1,13 @@
+{
+  "name": "theos-chess",
+  "version": "1.0.0",
+  "description": "A simple chess game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Muhamed Aziz Issaoui",
+  "license": "MIT"
+}
